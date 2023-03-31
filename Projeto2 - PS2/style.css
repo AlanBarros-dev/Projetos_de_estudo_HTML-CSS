@@ -1,0 +1,144 @@
+@charset "UTF - 8";
+@font-face {
+    font-family: Bebas Neue;
+    src: url('fontes/BebasNeue-Regular.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: Arcade;
+    src: url('fontes/gameplay/Gameplay.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: silent;
+    src: url('fontes/silent_hill/SLNTHLE.TTF');
+    font-weight: normal;
+}
+
+
+
+:root{
+    --cor01: #B8B6F2;
+    --cor02: #788ABF;
+    --cor03: #58658C;
+    --cor04: #427BFF;
+    --cor05: #09009C;
+    --cor06: #1B2440;
+    --cor07: #171A26;
+    
+    --fonte-destaque: 'Arcade';
+    --fonte-menu: 'silent';
+    --fonte-padrao: Arial, verdana;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor07);
+    font-family: var(--fonte-padrao);
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor05));
+    color: #ffffff;
+    max-height: 600px;
+    max-width: auto;
+    box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.384);
+
+}
+header > h1{
+    padding: 10px;
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.747);
+
+}
+header > p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    padding: 20px;
+}
+.menu > a{
+    padding: 10px;
+    text-decoration: none;
+    font-family: var(--fonte-menu);
+    color: var(--cor04);
+    transition-duration: 0.5s;
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: var(--cor01);
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+}
+main h1{
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    background-image: linear-gradient(to right, #427BFF, white);
+}
+main h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+main p{
+    text-indent: 1.5em;
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+main img{
+    width: 100%;
+}
+
+.lancamento{
+    max-width: 500px;
+    max-height: 450px;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.versoes{
+    max-width: 500px;
+    max-height: 450px;
+    margin: auto;
+    display: block;
+}
+.verstxt{
+    text-align: center;
+}
+
+
+
+
+footer{
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 30px;
+    background-color: var(--cor04);
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+}
