@@ -1,1 +1,59 @@
 @charset "UTF-8";
+@font-face {
+    font-family: sh2;
+    src: url('fontes/silent_hill/SLNTHLN.TTF');
+    font-size: normal;
+}
+
+:root{
+    --font-referenc: sh2;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
+h1{
+    font-family: var(--font-referenc);
+    color: aliceblue;
+    padding: 50px;
+    font-size: 3em;
+}
+header p{
+    padding-bottom: 20px;
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+
+    
+}
+header a:hover{
+    text-decoration: underline;
+    background-color: rgba(248, 3, 3, 0.158);
+    transition-duration: 0.5s;
+}
+main{
+    padding: 10px;
+}
+p{
+    line-height: 2em;
+}
+
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.171);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
