@@ -75,7 +75,9 @@ section{
     background-color: rgb(43, 42, 42);
     color: rgb(255, 0, 0);
     box-shadow: 3px 5px 13px rgba(0, 0, 0, 0.274);
-    padding: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 20px;
     height: 350px;
 }
 .imagem p{
@@ -98,7 +100,7 @@ section{
 #foto_mary{
     background: url('imagens/mary-p.png');
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -106,7 +108,7 @@ section{
 #carta{
     background-image: url('imagens/cartash2-M.png');
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
