@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio 2 sobre tabelas</title>
+    <style>
+       table{
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 600px;
+        height: 100px;
+       }
+       caption{
+        font-size: 2em;
+        text-align: center;
+        text-decoration: underline;   
+     }
+       tr{
+      
+       }
+       th{
+        border: 2px solid black;
+       }
+       td{
+        border: 2px solid black;
+        
+       }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Boletim Escolar 2022</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Area</th>
+                <th rowspan="2">Disciplina</th>
+                <th>Notas</th>
+                <th rowspan="2">media</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>             
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <th>Matematica</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th>Fisica</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th>Quimica</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th>Biologia</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4">Media de Exatas</th>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <th>Historia</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th>Geografia</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4">media de Humanas</th>
+            <td>0.0</td>
+        </tfoot>
+
+    </table>
+</body>
+</html>
