@@ -17,6 +17,13 @@ img{
 a{
     display: block;
     color: white;
+    padding: 20px;
     background-color: rgb(139, 27, 27);
     text-align: center; 
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: decoration 0.5s;
 }
